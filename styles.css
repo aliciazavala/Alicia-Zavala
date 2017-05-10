@@ -1,0 +1,38 @@
+img {
+    max-width: 80%;
+}
+body {
+    text-align: center;
+    
+}
+.logo{
+    margin:0 auto;
+    text-align: center;
+
+}
+.Title1{
+    font-family:'Libre Baskerville', ;
+    font-size: 24;
+}
+.Title2{
+    margin:0 auto;
+    width: 100%;
+    font-family:'Montserrat';
+    font-weight: 400;
+    font-size: 130%;
+}
+.content{
+    margin:0 auto;
+    margin-bottom: 1%;
+    
+}
+.a{
+     
+     
+}
+
+pie{
+    text-align: left;
+    font-family: 'Libre Baskerville';
+    font-size:70%;
+}
