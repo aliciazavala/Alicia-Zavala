@@ -23,9 +23,8 @@ h1{
     margin-bottom: 1%;   
 }
 .gif img{
-    height: 150;
-    max-height: 20%;
-    min-height: 20%;
+    height: 30%;
+    min-height: 120;
 }
 
 pie{
