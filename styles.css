@@ -22,7 +22,8 @@ body {
     font-size: 130%;
 }
 .content{
-    
+    margin:0 auto;
+    margin-bottom: 1%;
 }
 
 pie{
