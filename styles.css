@@ -3,7 +3,6 @@
 }
 body {
     text-align: center;
-    
 }
 .logo{
     margin:0 auto;
@@ -20,7 +19,7 @@ h1{
 }
 .gif{
     margin:0 auto;
-    margin-bottom: 1%;   
+    margin-bottom: 1%;
 }
 .gif img{
     height: 30%;
