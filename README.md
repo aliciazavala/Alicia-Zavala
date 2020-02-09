@@ -1,2 +1,1 @@
-# BWire
-# HackKU
+# HackKU2020 - BWire
