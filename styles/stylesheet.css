@@ -184,13 +184,13 @@ html {
       background-color: #888888;
 }
 
-.transfering t,t2,t3,t4{
+#transfering t,t2,t3,t4{
   font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   
 }
 
-.transfering{
+#transfering{
   text-align: center;
   margin-top: 50px;
   margin-bottom: 100px;
@@ -206,7 +206,7 @@ html {
   margin-bottom: 50px;
 }
 
-.transfering input{
+#transfering input{
   font-family: 'Montserrat', sans-serif;
   font-size: 36px;
 }
