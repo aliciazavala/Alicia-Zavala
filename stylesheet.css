@@ -1,0 +1,219 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body{
+      background-color: #f2f2f2;
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+  }
+  #banner {
+    
+    height: 180px;
+    transition: all 0.5s;
+    z-index: 997;
+    background: #012e57;
+    box-shadow: 0px 0px 10px grey;
+  }
+
+  #logo{
+    float: left;
+    width: 200px;
+    margin-left: 40px;
+  }  
+
+  .menu{
+      padding-right: 150px;
+      
+  }
+
+  .profilepic img{
+    float: right;
+    border-radius: 50%;
+    width: 100px;
+    margin-top:35px;
+    margin-right: -80px;
+}
+  .username{
+    
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin-top:130px;
+    margin-right: -110px;
+  }
+  .username:hover, .username:focus {
+   color: #c0c0c0;
+  }
+
+  .user-menu {
+    position:absolute;
+    right:180px;
+    display: none;
+    margin-left: 500px;
+    margin-right: -140px;
+    margin-top:180px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .user-menu a {
+    
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+  }
+
+  .user-menu a:hover {
+      background-color: #ddd
+    }
+  
+  .show {
+      display:block;
+    }
+#top img{
+  border-radius: 50%;
+  width: 15%;
+  border-color: #888888;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 110px;
+  margin-right: 20px;
+}
+
+#content h1{
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  
+}
+#img1{
+  
+  margin-left: 460px;
+  margin-right: 200px;
+  border-radius: 50%;
+  width: 15%;
+  border-color: #888888;
+  border-style: solid;
+  border-width: 1px;
+}
+#bottom img{
+  margin-top: 60px;
+  border-radius: 50%;
+  width: 15%;
+  border-color: #888888;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#content img:hover{
+  background-color: #bbbbbb8c;
+  transition: .9s ease;
+}
+
+#countrylist
+{
+    color: 012e57;
+    padding: 16px;
+    width: 900px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 36px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #aaaaaa;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+#bolivia{
+  display: none;
+}
+#bolivia.show {
+  display: block;
+}
+
+#bolivia input{
+  width: 450px;
+  font-size: 36px;
+  margin-left: 300px;
+  margin-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#bolivia t{ 
+  font-size: 36px;
+  margin-left: 350px;
+}
+
+#result{
+  font-size: 36px;
+}
+
+#amount{
+  float: right;
+  margin-top: 100px;
+  margin-right: 280px;
+  width:450px;
+  height:48px;
+  border:1px solid #000;
+  background-color: white;
+  border-color: #cfcece;
+}
+
+#bolivia button{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  float: left;
+  margin-top: 150px;
+  margin-left: 700px;
+  width: 300px;
+  background-color: #bbbbbb;
+  border-style: none;
+  cursor: pointer;
+}
+
+#bolivia button:hover{
+      background-color: #888888;
+}
+
+.transfering t,t2,t3,t4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  
+}
+
+.transfering{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+}
+
+#t2{
+  margin-top: 50px;
+}
+#t3{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.transfering input{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+}
+
+#transfering{
+  display: none;
+}
+#transfering.show {
+  display: block;
+}
