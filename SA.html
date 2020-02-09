@@ -17,13 +17,44 @@
                     <p onclick="dropDown()" class="username">User Name</p>
                     <div id="UserMenu" class="user-menu">
                         <a href="./mywallet.html">My Wallet</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
+                        <a href="#">Settings</a>
                       </div>
                 </profile>
             </div>
         </div>
         <div id=content class="animated slideInRight">
+            <div id=content class="animated slideInRight">
+                <select id="countrylist" onchange = "country(this)" > 
+                    <option value="">Choose a Country </option>
+                            <option value="Arg">Argentina </option>
+                            <option value="Blv">Bolivia</option>
+                            <option value="Br">Brazil</option>
+                            <option value="#">Chile</option>
+                            <option value="#">Colombia</option>
+                            <option value="">Easter Island (CL)</option>
+                            <option value="">Ecuador</option>>
+                            <option value="#">Falkland Islands (UK)</option>
+                            <option value="#">French Guiana (FR)</option>
+                            <option value="#">Galapagos Islands (CL)</option>
+                            <option value="#">Guyana</option>
+                            <option value="#">Paraguay</option>
+                            <option value="#">Peru</option>
+                            <option value="#">Suriname</option>
+                            <option value="#">Uruguay</option>
+                            <option value="#">Venezuela</option>
+                    </select>     
+                    <div id="bolivia">
+                        <t>Local Currency</t>
+                        <t>XRP Amount</t>
+                        <input type="text" id="input" oninput="AMOUNT()">
+                        <div id="amount">
+                        <span id="result"></span>
+                        </div>
+                        <a href="./transfer.html">
+                        <button >Transfer</button>
+                    </a>
+                    </div>           
+                </div>
         </div>
     </body>
 </html>

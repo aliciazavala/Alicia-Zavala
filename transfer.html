@@ -7,7 +7,7 @@
     </header>
     <body>
         <!--Top Banner-->
-        <div id=banner class="animated fadeIn">
+        <div id=banner>
             <a href="./index.html" >
             <img id="logo" src="styles/logo1.png"></img>
             </a>
@@ -22,30 +22,21 @@
                 </profile>
             </div>
         </div>
-        <div id=content class="animated slideInRight">
-            <div id="top">
-            <h1>Where do you want to transfer money?</h1>
-            <a href="./NA.html">
-            <img src="./styles/NA.png"></img>
-            </a>
-            <a href="./SA.html">
-            <img src="./styles/SA.png"></img>
-            </a>
-            <a href="./EU.html">
-            <img src="./styles/EUR.png"></img>
-            </a>
-            <a href="./AF.html">
-            <img src="./styles/AF.png"></img>
-            </a>
+        <div id=content class="animated slideInRight" onload="AMOUNT()">
+            <div class="transfering">
+            <t>Enter Reciepent XRP Address</t>
+            <div>
+            <input type="text" id="address">
             </div>
-            <div id="bottom">
-            <a href="./AS.html">
-            <img id="img1" src="./styles/AS.png"></img>
-            </a>
-            <a href="./AU.html">
-            <img src="./styles/AU.png"></img>
-        </a>
-            </div>
+            <div id="t2">
+            <t2>Amount to transfer: 364 XRP</t2>
+            <span id="transfer"></span>
+             </div>
+             <div id="t3">
+            <t3>Your currency: $ 101.23 </t3>
+            </div id="t3">
+            <t4>Reciepent currency: Bs. 700</t>
+        </div>
         </div>
     </body>
 </html>
