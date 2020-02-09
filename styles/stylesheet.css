@@ -77,10 +77,6 @@ html {
   .show {
       display:block;
     }
-.slide-in{
-    animation: slide-in 0.5s forwads;
-}
-
 #top img{
   border-radius: 50%;
   width: 15%;
@@ -119,4 +115,96 @@ html {
 #content img:hover{
   background-color: #bbbbbb8c;
   transition: .9s ease;
+}
+
+#countrylist
+{
+    color: 012e57;
+    padding: 16px;
+    width: 900px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 36px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #aaaaaa;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+#bolivia{
+  display: none;
+}
+#bolivia.show {
+  display: block;
+}
+
+#bolivia input{
+  width: 450px;
+  font-size: 36px;
+  margin-left: 300px;
+  margin-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#bolivia t{ 
+  font-size: 36px;
+  margin-left: 390px;
+}
+
+#result{
+  font-size: 36px;
+}
+
+#amount{
+  float: right;
+  margin-top: 100px;
+  margin-right: 280px;
+  width:450px;
+  height:48px;
+  border:1px solid #000;
+  background-color: white;
+  border-color: #cfcece;
+}
+
+#bolivia button{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  float: left;
+  margin-top: 150px;
+  margin-left: 700px;
+  width: 300px;
+  background-color: #bbbbbb;
+  border-style: none;
+  cursor: pointer;
+}
+
+#bolivia button:hover{
+      background-color: #888888;
+}
+
+.transfering t,t2,t3,t4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  
+}
+
+.transfering{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#t2{
+  margin-top: 50px;
+}
+#t3{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.transfering input{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
 }
