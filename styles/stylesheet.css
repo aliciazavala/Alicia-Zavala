@@ -192,8 +192,10 @@ html {
 
 .transfering{
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 100px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
 }
 
 #t2{
@@ -207,4 +209,11 @@ html {
 .transfering input{
   font-family: 'Montserrat', sans-serif;
   font-size: 36px;
+}
+
+#transfering{
+  display: none;
+}
+#transfering.show {
+  display: block;
 }
