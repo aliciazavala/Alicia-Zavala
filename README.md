@@ -1,6 +1,9 @@
 # HackKU2020 - BWire
 As group formed by international students, we are always making or receiving international money transfers,however, we noticed the need for a service to make this process faster and cheaper. The services currently offered around the world charge expensive fees and have a limited amount of currencies that can be exchanged in the process, reason why we decided to develop a web application that by using the technology offered by Xpring, would make this process faster, cheaper and open to exchange any currency.
 
+# Demo
+  Only fully working country is Bolivia
+  
 # What it does
 By using html, CSS, and JavaScript, we built the front end of our web app, which allows the user to check their wallet balance, select a destination for the money transfer by continent and check the amount of XRP that can be purchased using their local currency.
 
