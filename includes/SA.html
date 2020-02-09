@@ -1,0 +1,60 @@
+<html lang="en" >
+    <header>
+        <link rel="stylesheet" href="../styles/stylesheet.css" type="text/css" />
+        <script src="../script.js"></script>
+        <link rel="stylesheet" href="../styles/animate.css">
+        <title>BWire</title>
+    </header>
+    <body>
+        <!--Top Banner-->
+        <div id=banner>
+            <a href="../index.html" >
+            <img id="logo" src="../styles/logo1.png"></img>
+            </a>
+            <div class="menu">
+                <profile class=profilepic>
+                    <img src="../styles/blank-profile-picture-973460_960_720.webp"></img>
+                    <p onclick="dropDown()" class="username">User Name</p>
+                    <div id="UserMenu" class="user-menu">
+                        <a href="./mywallet.html">My Wallet</a>
+                        <a href="#">Settings</a>
+                      </div>
+                </profile>
+            </div>
+        </div>
+        <div id=content class="animated slideInRight">
+            <div id=content class="animated slideInRight">
+                <select id="countrylist" onchange = "country(this)" > 
+                    <option value="">Choose a Country </option>
+                            <option value="Arg">Argentina </option>
+                            <option value="Blv">Bolivia</option>
+                            <option value="Br">Brazil</option>
+                            <option value="#">Chile</option>
+                            <option value="#">Colombia</option>
+                            <option value="">Easter Island (CL)</option>
+                            <option value="">Ecuador</option>>
+                            <option value="#">Falkland Islands (UK)</option>
+                            <option value="#">French Guiana (FR)</option>
+                            <option value="#">Galapagos Islands (CL)</option>
+                            <option value="#">Guyana</option>
+                            <option value="#">Paraguay</option>
+                            <option value="#">Peru</option>
+                            <option value="#">Suriname</option>
+                            <option value="#">Uruguay</option>
+                            <option value="#">Venezuela</option>
+                    </select>     
+                    <div id="bolivia">
+                        <t>Local Currency (Bs.)</t>
+                        <t>XRP Amount</t>
+                        <input type="text" id="input" oninput="AMOUNT()">
+                        <div id="amount">
+                        <span id="result"></span>
+                        </div>
+                        <a href="./transfer.html">
+                        <button >Transfer</button>
+                    </a>
+                    </div>           
+                </div>
+        </div>
+    </body>
+</html>
