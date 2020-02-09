@@ -8,8 +8,16 @@ function country(x) {
 }
 
 function AMOUNT(){
+  
   var input = document.getElementById("input").value;
   document.getElementById("result").innerText = input * 0.52;
+  document.querySelector("#transfer").addEventListener("click",(e) => {
+  document.getElementById("bolivia").classList.remove("show");
+  document.getElementById("transfering").classList.toggle("show");
+  document.getElementById("transfer1").innerText = input * 0.52 + " XRP";
+  document.getElementById("current").innerText = "$ " + ((input * 0.52)*0.28);
+  document.getElementById("reciep").innerText = "Bs. "+ input;
+  })
 }
 
 function dropDown() {
